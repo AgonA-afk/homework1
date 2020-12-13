@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("mk.png");
+    background-size: 100% 800px;
+}
+div#search-box{
+    width: 100%;
+    text-align:center;
+}
+input#search{
+    margin: 0 auto;
+    display: inline-block;
+    width: 32%;
+    height: 30px;
+    background-color:   rgb(59, 58, 58);
+    border: 3px black solid ;
+    border-radius: 5px;
+    color: white;
+}
+span#dot-skopje {
+    height: 65px;
+    width: 65px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 140px;
+    left: 620px;
+  }
+  span#dot-kumanovo {
+    height: 65px;
+    width: 65px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 70px;
+    left: 680px;
+  }
+  span#dot-ohri {
+    height: 65px;
+    width: 65px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 580px;
+    left: 220px;
+  }
+  span#dot-tetovo {
+    height: 65px;
+    width: 65px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 140px;
+    left: 220px;
+  }
+  span#dot-gostivar {
+    height: 65px;
+    width: 65px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 240px;
+    left: 130px;
+  }
+  span#dot-gevgelia {
+    height: 65px;
+    width: 65px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 570px;
+    left: 652px;
+  }
+  span#dot-bitola {
+    height: 65px;
+    width: 65px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 620px;
+    left: 102px;
+  }
+  span#dot-kavadarci {
+    height: 65px;
+    width: 65px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 420px;
+    left: 320px;
+  }
+  span#dot-veles {
+    height: 65px;
+    width: 65px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 275px;
+    left: 150px;
+  }
+  span#dot-kichevo {
+    height: 65px;
+    width: 65px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 390px;
+    left: 70px;
+  }
+  span#dot-kochani {
+    height: 65px;
+    width: 65px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.4;
+    position: relative;
+    top: 180px;
+    left: 350px;
+  }
+  div#info{
+      width: 280px;
+      height: 200px;
+      background-color:#464646;
+      position: relative;
+      top: 490px;
+  }
+  span#dot-green {
+    height: 65px;
+    width: 65px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+  }
+  span#dot-yellow {
+    height: 65px;
+    width: 65px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+  }
+  span#dot-red {
+    height: 65px;
+    width: 65px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+  }
+  div#ball{
+    position: relative;
+    top: 5px;
+  }
+  .balls-color{
+      margin: 10px;
+      text-align: center;
+      color:black;
+      line-height: 60px;
+  }
+  #date1{
+      color: aliceblue;
+      font-size: 20px;
+  }
+  #change_date{
+    position: relative;
+    top: -16px;
+    height: 40px;
+    width: 131px;
+    left: 154px;
+    text-align: center;
+
+  }
+  a{
+      text-decoration: none;
+      color: aliceblue;
+  }
+  #add-image{
+      width: 41px;
+      height: 41px;
+  }
+  #image-change{
+      width: 40px;
+      height: 40px;
+  }
+  #worst-city{
+      width: 250px;
+      height: 50px;
+      background-color: #464646;
+      position: relative;
+      left: 1268px;
+      top: 400px;
+      text-align: center;
+      line-height: 50px;
+  }
+  div#worst-city p{
+      color: aliceblue;
+      font-size: 24px;
+  }
+ #worst-city-name{
+      color: red;
+  }
+#airquality{
+  width: 200px;
+  height: 100px;
+  border: solid 1px white;
+  border-radius: 25px;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
+.ui-datepicker2 { 
+  /* margin-left: 100px; */
+  z-index: 100;
+}
+#change_date{
+  color: aliceblue;
+
+}

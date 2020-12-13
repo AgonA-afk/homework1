@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppPrototype</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="jquery-ui.css">
+   <script src="jquery.js"></script>
+   <script src="jquery-ui.js"></script>
+    
+</head>
+<body>
+    
+    <!-- Search  -->
+    <div id="search-box">
+        <form action="">
+            <input id="search" type="text" name="" placeholder="Search for a city" >
+        </form>
+    </div>
+
+    <!-- Indicator for air quality  -->
+    <span id="dot-skopje" ></span>
+    <span id="dot-kumanovo"></span>
+    <span id="dot-ohri"></span>
+    <span id="dot-tetovo"></span>
+    <span id="dot-gostivar"></span>
+    <span id="dot-kichevo"></span>
+    <span id="dot-gevgelia"></span>
+    <span id="dot-bitola"></span>
+    <span id="dot-kavadarci"></span>
+    <span id="dot-veles"></span>
+    <span id="dot-kochani"></span>
+
+    <!-- Show date and Change date -->
+    <div id="info">
+    <div id="date1"></div>
+    <div id="change_date" class="ui-datepicker2"> 
+        <p>Change date<img id="image-change" src="change.png" alt=""></p>
+    </div>
+
+    <!-- Show severity of the pollution -->
+    <div id="ball">
+    <span class="balls-color" id="dot-green">50</span>
+    <span class="balls-color" id="dot-yellow">100</span>
+    <span class="balls-color" id="dot-red">170+</span>
+    </div>
+    </div>
+
+    <!-- City whith the worst polution -->
+    <div id="worst-city">
+        <p>Worst city is: <span id="worst-city-name"> Skopje</span></p>
+    </div>
+
+    <!-- Detailed information for the specific city -->
+    <div id="airquality">
+        <p id="name">Name of City</p> 
+        <p>Population: <span id="population"></span>  </p>
+        <p>PM10: <span id="PM10"></span>  </p>
+        <p>Average Annual PM10: <span id="average_PM10"></span>  </p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
